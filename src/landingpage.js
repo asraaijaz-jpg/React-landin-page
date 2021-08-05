@@ -13,6 +13,7 @@ import img5 from './pics5.png';
 import img6 from './pics6.png';
 import img7 from './pics7.png';
 
+
 function Landingpage()
 {
     return(<div className='container' style={{backgroundColor:'#E9F5F1 '}}>
