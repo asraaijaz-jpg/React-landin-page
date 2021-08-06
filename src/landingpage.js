@@ -19,17 +19,16 @@ import img4 from './pics4.png';
 import img5 from './pics5.png';
 import img6 from './pics6.png';
 import img7 from './pics7.png';
-import img11 from './pics11.png';
-import img12 from './pics12.png';
-import img15 from './pics15.png';
-import img17 from './pics17.png';
+
+
+
 
 
 
 
 function Landingpage()
 {
-    return(<div className='container-fluid p-5' style={{backgroundColor:'#F5F5F5  '  }}>
+    return(<div className='container-fluid ' style={{backgroundColor:'#F5F5F5  '  }}>
         
         <div className='row'>
 
@@ -58,7 +57,7 @@ function Landingpage()
             </div>
 
             <div className='col-2'>
-           <button type='button' className='btn-lg' style={{backgroundColor:'#8DFFDF', borderRadius:'15px' ,
+           <button type='button' className='btn-lg' style={{backgroundColor:'#8DFFDF', orderRadius:'15px' ,
         border:'3px solid #00D59A ' }}>
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Contact</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
             </div>
@@ -107,15 +106,16 @@ automated processes, and artificial intelligence.</h3><br></br>
 <br></br><br></br>
 <div className='row'>
 
-<div className='col-6' style={{backgroundColor:'#358BF2'}}>
+<div className='col-6' style={{background: 'linear-gradient( to bottom right ,#2F97EC, #08ECC0 )'}}>
 <br></br><br></br>
 
-<div style={{height:'100px' , width:'100%' , backgroundColor:'white' , borderRadius:'18px'}}>
+<div style={{height:'100px' , width:'100%' , backgroundColor:'white' , borderRadius:'15px' ,
+ borderBottom:'4px solid #4EFFBD'}}>
 
 
     <div className='row'>
-        <div className='col-3 offset-1'>
-<TrendingFlatIcon style={{fontSize:'90px'}}></TrendingFlatIcon>
+        <div className='col-2 offset-1'>
+<TrendingFlatIcon style={{fontSize:'80px'}}></TrendingFlatIcon>
         </div>
         <div className='col-6'>
 
@@ -131,12 +131,13 @@ implement a set of specifications, DO NOT call.</p>
        <br></br><br></br>
 
 
-       <div style={{height:'100px' , width:'100%' , backgroundColor:'white' , borderRadius:'18px'}}>
+       <div style={{height:'100px' , width:'100%' , backgroundColor:'white' , borderRadius:'15px'
+    , borderBottom:'4px solid #4EFFBD'}}>
 
 
     <div className='row'>
-        <div className='col-3 offset-1'>
-<TrendingFlatIcon style={{fontSize:'90px'}}></TrendingFlatIcon>
+        <div className='col-2 offset-1'>
+<TrendingFlatIcon style={{fontSize:'80px'}}></TrendingFlatIcon>
         </div>
         <div className='col-6'>
 
@@ -150,12 +151,13 @@ enables companies to gain maximum benefit.</p>
 
        <br></br><br></br>
 
-       <div style={{height:'100px' , width:'100%' , backgroundColor:'white' , borderRadius:'18x'}}>
+       <div style={{height:'100px' , width:'100%' , backgroundColor:'white' , borderRadius:'15px'
+    , borderBottom:'4px solid #4EFFBD'}}>
 
 
     <div className='row'>
-        <div className='col-3 offset-1'>
-<TrendingFlatIcon style={{fontSize:'90px'}}></TrendingFlatIcon>
+        <div className='col-2 offset-1'>
+<TrendingFlatIcon style={{fontSize:'80px'}}></TrendingFlatIcon>
         </div>
         <div className='col-6'>
 
@@ -211,7 +213,7 @@ value creation in 3 weeks</h1><br></br>
     <div className='row' >
 <div className='col-3 offset-1'>
 
-<div style={{height:'90px' , width:'100%' ,backgroundImage:`url(${img12})` , borderRadius:'20px' , color:'white'}}>
+<div style={{height:'90px' , width:'100%' ,background: 'linear-gradient( to right ,#6CD3F6, #6493FE)' , borderRadius:'20px' , color:'white'}}>
 <h3 className='text-center p-4'>3 Weeks.</h3>
 </div>
 
@@ -219,7 +221,7 @@ value creation in 3 weeks</h1><br></br>
 
 <div className='col-3 offset-1'>
 
-<div style={{height:'90px' , width:'100%' , backgroundImage:`url(${img12})` , borderRadius:'20px'  , color:'white'}}>
+<div style={{height:'90px' , width:'100%' ,background: 'linear-gradient( to right ,#6CD3F6, #6493FE)', borderRadius:'20px'  , color:'white'}}>
 <h3 className='text-center p-4'>21 Days.</h3>
 </div>
 
@@ -227,7 +229,7 @@ value creation in 3 weeks</h1><br></br>
 
 <div className='col-3 offset-1'>
 
-<div style={{height:'90px' , width:'100%' , backgroundImage:`url(${img12})` , borderRadius:'20px' , color:'white'}}>
+<div style={{height:'90px' , width:'100%' , background: 'linear-gradient( to right ,#6CD3F6, #6493FE)' , borderRadius:'20px' , color:'white'}}>
 <h3 className='text-center p-4'>504 Hours.</h3>
 </div>
 
@@ -293,17 +295,17 @@ And we also speak native in development.</h5>
 </div>
 
 
-<div className='row' style={{backgroundColor:'#16E7CD'}}>
+<div className='row' style={{background: 'linear-gradient( to right ,#0EE9E2, #20E4B2)'}}>
 <div className='col offset-3'>
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <b><h1 style={{fontSize:'70px' , fontWeight:'70px'}}>SEC <br></br>SPEED <br></br>EMPATHY <br></br>COOPERATION<br></br></h1>
-<hr style={{ width:'440px' , height:'10px' , backgroundColor:'#8C9392 '}}></hr>
+<hr style={{ width:'440px' , height:'10px' , backgroundColor:'#BEFFE8 '}}></hr>
 </b><br></br><br></br><br></br>
 
 <h1>From this we write success <br></br>stories.Every time...</h1>
 <br></br><br></br>
 <button type='button' className='btn-lg p-1' style={{backgroundColor:'black' , color:'white' , borderRadius:'40px' ,
-        border:'2px solid #8FDCAD ' }}>
+         }}>
            <ArrowRightIcon style={{fontSize:'40px'}}></ArrowRightIcon>
            &nbsp;&nbsp;<b>Learn how we do it. </b>&nbsp;&nbsp;&nbsp; &nbsp;
             </button>
@@ -333,15 +335,15 @@ Ok. It's not that simple after all.</h1>
 <br></br><br></br><br></br><br></br><br></br>
 
 
-<div className='row'>
+<div className='row' >
 
-<div className='col-4 p-5 offset-1' style={{backgroundImage:`url(${img15})`}}>
+<div className='col-4 p-5 offset-1' style={{background: 'linear-gradient( to right ,#11F9E9, #01E3BE)'}}>
 <h1>UI and UX Design</h1><br></br>
 <h5>Not only beautiful, but also intuitive?<br></br>
 We do that!</h5>
 </div>
 
-<div className='col-4 p-5 offset-1' style={{backgroundImage:`url(${img15})`}}>
+<div className='col-4 p-5 offset-1' style={{background: 'linear-gradient( to right ,#11F9E9, #01E3BE)'}}>
 <h1>API'S</h1><br></br>
 <h5>The brain of digitalisation</h5>
 </div>
@@ -353,12 +355,12 @@ We do that!</h5>
 
 <div className='row'>
 
-<div className='col-4 p-5 offset-1' style={{backgroundImage:`url(${img15})`}}>
+<div className='col-4 p-5 offset-1' style={{background: 'linear-gradient( to right ,#11F8E7, #01E3BE)'}}>
 <h1>Algorithms and AI</h1><br></br>
 <h5>The heart of digitisation</h5>
 </div>
 
-<div className='col-4 p-5 offset-1' style={{backgroundImage:`url(${img15})`}}>
+<div className='col-4 p-5 offset-1' style={{background: 'linear-gradient( to right ,#11F8E7, #01E3BE)'}}>
 <h1>Databases</h1><br></br>
 <h5>The engine of digitalisation</h5>
 </div>
@@ -417,7 +419,7 @@ Sounds good. Is good.</h1>
 
 
 
-<div className='row' style={{backgroundImage:`url(${img17})`}}>
+<div className='row' style={{background: 'linear-gradient( to right ,#B389F9, #97DAE2)'}}>
 <div className='col offset-1'><br></br><br></br><br></br>
 <h1 style={{color:'white'}}>Our first question:<br></br>
 What would we do with your budget if it were our business?</h1><br></br><br></br>
@@ -451,7 +453,7 @@ Added Value GenerationLet's
 </div>
 
 <div className='col-6'>
-<img src={img7} style={{ width:'100%' , height:'auto'}}/>
+<img src={img7} style={{ width:'800px' , height:'auto'}}/>
 </div>
 
 </div>
