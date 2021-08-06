@@ -19,15 +19,9 @@ import img4 from './pics4.png';
 import img5 from './pics5.png';
 import img6 from './pics6.png';
 import img7 from './pics7.png';
-import img8 from './pic8.png';
-import img9 from './pics9.png';
-import img10 from './pics10.png';
 import img11 from './pics11.png';
 import img12 from './pics12.png';
-import img13 from './pics13.png';
-import img14 from './pics14.png';
 import img15 from './pics15.png';
-import img16 from './pics16.png';
 import img17 from './pics17.png';
 
 
