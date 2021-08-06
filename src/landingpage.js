@@ -30,7 +30,7 @@ function Landingpage()
 {
     return(<div className='container-fluid ' style={{backgroundColor:'#F5F5F5  '  }}>
         
-        <div className='row'>
+        <div className='row p-5'>
 
             <div className='col-5'>
                  <h1>Bustani <span><img src={logo1}/></span></h1>
@@ -64,7 +64,7 @@ function Landingpage()
         </div>
 
 <br></br><br></br><br></br><br></br>
-        <div className='row'>
+        <div className='row p-5'>
 
 <div className='col-6'>
 <b><u style={{color:'#20FFC1'}}><h1 style={{fontSize:'70px' , color:'black'}}>We do it.</h1></u></b><br></br>
