@@ -498,50 +498,50 @@ Do it now.</h5>
 <h1 style={{fontSize:'60px'}} className='p-2'>Lets talk?</h1>
 <br></br><br></br><br></br>
 
-<div className='row'>
+<div className='row p-2'>
 <div className='col'>
 
-    <h1>
-    Hey, my name is  &nbsp; 
-    <span style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}> &nbsp; &nbsp;
-    &nbsp; &nbsp;Type Here  &nbsp; &nbsp;&nbsp;&nbsp;  </span>
+<h1 >
 
-    &nbsp; and i'm looking for <span 
-    style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}>  
-    &nbsp;  Web development  <DetailsIcon style={{fontSize:'37px' , color:'black'}}></DetailsIcon></span>
+Hey, my name is   &nbsp; &nbsp;<input type='text' style={{border:'none' , borderBottom:'5px solid black' , 
+width:"300px" , color:'#BACAC5' }} value="  &nbsp; &nbsp;Type Here"/>
 
-    &nbsp; <br></br><br></br>Additionally I want to say
-    <span style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}>
-        
+&nbsp; &nbsp;and i'm looking for &nbsp; &nbsp;<input type='text' style={{border:'none' , borderBottom:'5px solid black' , 
+width:"330px" , color:'#BACAC5' }} value=" Web Development"/> <DetailsIcon style={{fontSize:'37px' , color:'black'}}></DetailsIcon>
 
-&nbsp; &nbsp;&nbsp;&nbsp;  
-    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-     Your message(optional) &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <br></br><br></br>&nbsp;
-      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
-     
-     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
-     </span>
 <br></br><br></br>
-      contact with me at &nbsp;&nbsp; &nbsp;&nbsp; <span style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}> &nbsp; &nbsp;&nbsp;&nbsp;  
-    &nbsp; &nbsp;&nbsp;&nbsp; Your email Address.  &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  </span>
 
-    </h1>
+Additionally I want to say &nbsp; &nbsp;<input type='text' style={{border:'none' , borderBottom:'5px solid black' , 
+width:"950px" , color:'#BACAC5' }} value=" You Message (optional) "/>
 
-    <br></br><br></br><br></br><br></br>
-    <button type='button' className='btn-lg p-1' style={{backgroundColor:'black' , color:'white' , borderRadius:'50px' ,
+<br></br><br></br>
+
+<input type='text' style={{border:'none' , borderBottom:'5px solid black' , 
+width:"1420px" , color:'#BACAC5' }} />
+
+<br></br><br></br>
+
+Contact with me at &nbsp; &nbsp;<input type='text' style={{border:'none' , borderBottom:'5px solid black' , 
+width:"600px" , color:'#BACAC5' }} value="  &nbsp; &nbsp; &nbsp; &nbsp;Your Email Address."/>
+</h1>
+<span></span>
+
+</div>
+</div>
+
+<br></br><br></br><br></br><br></br>
+
+
+<button type='button' className='btn-lg p-1' style={{backgroundColor:'black' , color:'white' , borderRadius:'50px' ,
         border:'4px solid' }}>
-          <ArrowRightIcon style={{fontSize:'50px'}}>
+          <ArrowRightIcon style={{fontSize:'45px'}}>
           &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</ArrowRightIcon> &nbsp;<b>Send Message</b>&nbsp;&nbsp;&nbsp; &nbsp;
           &nbsp;&nbsp;&nbsp;
         </button>
 
-</div>
-</div>
+
+
+
 
 <br></br><br></br><br></br><br></br>
 
