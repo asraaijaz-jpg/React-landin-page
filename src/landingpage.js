@@ -37,19 +37,19 @@ function Landingpage()
             </div>
 
             <div className='col-1'>
-                 <h6>Who we are?</h6>
+                 <a href='' style={{color:'#3F0000' , textDecoration:'none'}}><h6>Who are?</h6></a>
             </div>
 
             <div className='col-1'>
-                 <h6>The Future</h6>
+            <a href='' style={{color:'#3F0000' ,  textDecoration:'none'}}><h6>The Future</h6></a>
             </div>
 
             <div className='col-1'>
-                 <h6>Fastest MVP</h6>
+            <a href='' style={{color:'#3F0000' , textDecoration:'none'}}><h6>Fastest MVP</h6></a>
             </div>
 
             <div className='col-1'>
-                 <h6>Clients</h6>
+            <a href='' style={{color:'#3F0000' , textDecoration:'none'}}><h6>Clients</h6></a>
             </div>
 
             <div className='col-1'>
@@ -57,7 +57,7 @@ function Landingpage()
             </div>
 
             <div className='col-2'>
-           <button type='button' className='btn-lg' style={{backgroundColor:'#8DFFDF', orderRadius:'15px' ,
+           <button type='button' className='btn-lg' style={{backgroundColor:'#8DFFDF', brderRadius:'15px' ,
         border:'3px solid #00D59A ' }}>
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Contact</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
             </div>
@@ -78,7 +78,8 @@ automated processes, and artificial intelligence.</h3><br></br>
 <button type='button' className='btn-lg p-1' style={{backgroundColor:'#8DFFDF', borderRadius:'15px' ,
         border:'3px solid #00D59A ' }}>
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Get Started </b>&nbsp;&nbsp;&nbsp; &nbsp;
-           <span style={{color:'#4BB286'}}>It's Free.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ArrowRightIcon style={{fontSize:'70px'}}></ArrowRightIcon></button>
+           <span style={{color:'#4BB286'}}>It's Free.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+           <ArrowRightIcon style={{fontSize:'50px'}}></ArrowRightIcon></button>
 
 <br></br><br></br><br></br>
 <h4 style={{color:'#9EA2A1 '}}>We think radically to create relevance.</h4>
@@ -119,7 +120,7 @@ automated processes, and artificial intelligence.</h3><br></br>
         </div>
         <div className='col-6'>
 
-        <p className='text-center p-2' style={{fontSize:'16px'}}> If you are looking for someone to blindly<br></br>
+        <p className=' p-2' style={{fontSize:'16px'}}> If you are looking for someone to blindly<br></br>
 implement a set of specifications, DO NOT call.</p>
 
 
@@ -141,7 +142,7 @@ implement a set of specifications, DO NOT call.</p>
         </div>
         <div className='col-6'>
 
-        <p className='text-center p-2'>We are only interested in relevance and impact that
+        <p className='p-2'>We are only interested in relevance and impact that
 enables companies to gain maximum benefit.</p>
 
         </div>
@@ -161,7 +162,7 @@ enables companies to gain maximum benefit.</p>
         </div>
         <div className='col-6'>
 
-        <p className='text-center p-2'> That's why we insist on being able to contribute our expertise.</p>
+        <p className=' p-2'> That's why we insist on being able to contribute our expertise.</p>
 
 
         </div>
@@ -318,7 +319,7 @@ And we also speak native in development.</h5>
 <br></br><br></br><br></br>
 
 <div style={{width:'100%' , height:'auto' , border:'12px solid blue'}}>
-<div className='row' style={{backgroundColor:'#0094FF'}}>
+<div className='row' style={{backgroundColor:'#00B4FF'}}>
 
 <div className='col-6 p-5'>
 <br></br><br></br><h1 style={{color:'white'  , fontSize:'43px'}}>A successful platform consists of 4 components that will lead to artificial
@@ -337,13 +338,15 @@ Ok. It's not that simple after all.</h1>
 
 <div className='row' >
 
-<div className='col-4 p-5 offset-1' style={{background: 'linear-gradient( to right ,#11F9E9, #01E3BE)'}}>
+
+
+<div className='col-5 p-5 offset-1' style={{background: 'linear-gradient( to right ,#11F9E9, #01E3BE)'}}>
 <h1>UI and UX Design</h1><br></br>
 <h5>Not only beautiful, but also intuitive?<br></br>
 We do that!</h5>
 </div>
 
-<div className='col-4 p-5 offset-1' style={{background: 'linear-gradient( to right ,#11F9E9, #01E3BE)'}}>
+<div className='col-5 p-5 mx-4' style={{background: 'linear-gradient( to right ,#11F9E9, #01E3BE)'}}>
 <h1>API'S</h1><br></br>
 <h5>The brain of digitalisation</h5>
 </div>
@@ -355,12 +358,12 @@ We do that!</h5>
 
 <div className='row'>
 
-<div className='col-4 p-5 offset-1' style={{background: 'linear-gradient( to right ,#11F8E7, #01E3BE)'}}>
+<div className='col-5 p-5 offset-1' style={{background: 'linear-gradient( to right ,#11F8E7, #01E3BE)'}}>
 <h1>Algorithms and AI</h1><br></br>
 <h5>The heart of digitisation</h5>
 </div>
 
-<div className='col-4 p-5 offset-1' style={{background: 'linear-gradient( to right ,#11F8E7, #01E3BE)'}}>
+<div className='col-5 p-5 mx-4' style={{background: 'linear-gradient( to right ,#11F8E7, #01E3BE)'}}>
 <h1>Databases</h1><br></br>
 <h5>The engine of digitalisation</h5>
 </div>
@@ -441,14 +444,14 @@ We can talk about our ASAP process in a flash.</h1>
 <div className='row '>
 
 <div className='col-6 p-5' style={{backgroundColor:'#81F4D0'}}>
-<h1>
-Added Value GenerationLet's
+<h1 style={{fontSize:'55px'}}>
+Added Value Generation
 </h1>
-<br></br><br></br>
-<li style={{fontSize:'30px'}}>Give us call</li>
-<li style={{fontSize:'30px'}}>Leverage your Potential</li>
-<li style={{fontSize:'30px'}}>Don’t hesitate.</li>
-<li style={{fontSize:'30px'}}>Do it now.</li>
+<br></br>
+ <h5 style={{fontSize:'35px' , fontWeight: 'normal' }}>Give us call<br></br>
+Leverage your Potential<br></br>
+Don’t hesitate.<br></br>
+Do it now.</h5>
 
 </div>
 
@@ -459,26 +462,39 @@ Added Value GenerationLet's
 </div>
 
 <br></br><br></br><br></br><br></br>
-<center><h1 style={{fontSize:'60px' , color:'#00AEA2'}}>Are you ready for the next big thing?</h1></center>
+<h1 style={{fontSize:'60px' , color:'#00AEA2'}} className='p-2'>Are you ready for the next big thing?</h1>
 <br></br>
-<center><h1 style={{fontSize:'60px'}}>Lets talk?</h1></center>
+<h1 style={{fontSize:'60px'}} className='p-2'>Lets talk?</h1>
 <br></br><br></br><br></br>
 
 <div className='row'>
 <div className='col'>
 
     <h1>
-    Hey, my name is  &nbsp; &nbsp;&nbsp;&nbsp; <span style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}> &nbsp; &nbsp;&nbsp;&nbsp;  
-    &nbsp; &nbsp;&nbsp;&nbsp; Type Here  &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  </span>
+    Hey, my name is  &nbsp; 
+    <span style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}> &nbsp; &nbsp;
+    &nbsp; &nbsp;Type Here  &nbsp; &nbsp;&nbsp;&nbsp;  </span>
 
-    &nbsp; &nbsp;&nbsp;&nbsp; And I am looking for <br></br><br></br><span style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}> &nbsp; &nbsp;&nbsp;&nbsp;  
-    &nbsp; &nbsp;&nbsp;&nbsp; Web development  &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  </span>
+    &nbsp; and i'm looking for <span 
+    style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}>  
+    &nbsp; &nbsp;&nbsp;&nbsp; Web development    </span>
 
-    &nbsp; &nbsp;&nbsp;&nbsp; Additionally I want to say
-    <br></br><br></br><span style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}> &nbsp; &nbsp;&nbsp;&nbsp;  
+    &nbsp; <br></br><br></br>Additionally I want to say
+    <span style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}>
+        
+
+&nbsp; &nbsp;&nbsp;&nbsp;  
     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-     Your message(optional) &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </span>
+     Your message(optional) &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <br></br><br></br>&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+     
+     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+     </span>
 <br></br><br></br>
       contact with me at &nbsp;&nbsp; &nbsp;&nbsp; <span style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}> &nbsp; &nbsp;&nbsp;&nbsp;  
     &nbsp; &nbsp;&nbsp;&nbsp; Your email Address.  &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  </span>
