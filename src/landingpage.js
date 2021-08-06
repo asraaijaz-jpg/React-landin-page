@@ -10,6 +10,7 @@ import MarkunreadMailboxIcon from '@material-ui/icons/MarkunreadMailbox';
 import SportsVolleyballIcon from '@material-ui/icons/SportsVolleyball';
 import SyncAltIcon from '@material-ui/icons/SyncAlt';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+import DetailsIcon from '@material-ui/icons/Details';
 
 import logo1 from './a.PNG';
 import img1 from './pics1.png';
@@ -57,7 +58,7 @@ function Landingpage()
             </div>
 
             <div className='col-2'>
-           <button type='button' className='btn-lg' style={{backgroundColor:'#8DFFDF', brderRadius:'15px' ,
+           <button type='button' className='btn-lg' style={{backgroundColor:'#8DFFDF', borderRadius:'15px' ,
         border:'3px solid #00D59A ' }}>
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Contact</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
             </div>
@@ -197,8 +198,10 @@ value creation in 3 weeks</h1><br></br>
 <h2>Fastest MVP in Town.</h2><br></br>
 <h5>The fastest way to radically benefit. And that is relevance for your customer.</h5>
     <br></br>
+    <a href='' style={{textDecoration:'none'}}>
 <p style={{color:'#147AFE' , fontSize:'20px'}}><TrendingFlatIcon style={{fontSize:'40px' , color:'1F6AFF'}}></TrendingFlatIcon>
-&nbsp;&nbsp;Let's have a talk</p>
+&nbsp;&nbsp;Let's have a talk</p></a>
+
     </div>
     </div>
 
@@ -240,11 +243,17 @@ value creation in 3 weeks</h1><br></br>
 <br></br><br></br><br></br><br></br><br></br>
     <div className='row' style={{backgroundColor:'#F3FDFF'}}>
 <div className='col'>
-<h1>After that, we deliver<br></br>
-Every time.</h1>
+<h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After that, we deliver<br></br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Every time.</h1>
 
-<p style={{color:'#147AFE' , fontSize:'20px'}}><TrendingFlatIcon style={{fontSize:'40px' , color:'1F6AFF'}}></TrendingFlatIcon>
-&nbsp;&nbsp;Let's have a talk</p>
+<a href='' style={{textDecoration:'none'}}>
+<p style={{color:'#147AFE' , fontSize:'20px'}}>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <TrendingFlatIcon style={{fontSize:'40px' , color:'1F6AFF'}}>
+
+</TrendingFlatIcon>&nbsp;&nbsp;
+Let's have a talk</p></a>
 
 <br></br><br></br><br></br><br></br>
 <br></br><br></br><br></br><br></br>
@@ -260,7 +269,7 @@ Every time.</h1>
 <br></br><br></br><br></br><br></br>
 <br></br><br></br><br></br><br></br>
 <h1 >We build digital products <br></br>We are <span style={{width:'10px' , height:'10px',
-borderRadius:'5px' , backgroundColor:'#8DFFDF'}} className='p'>Coders...</span></h1>
+borderRadius:'18px' , backgroundColor:'#8DFFDF'}} className='my-5'>Coders...</span></h1>
 
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 </div>
@@ -300,7 +309,7 @@ And we also speak native in development.</h5>
 <div className='col offset-3'>
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <b><h1 style={{fontSize:'70px' , fontWeight:'70px'}}>SEC <br></br>SPEED <br></br>EMPATHY <br></br>COOPERATION<br></br></h1>
-<hr style={{ width:'440px' , height:'10px' , backgroundColor:'#BEFFE8 '}}></hr>
+<hr style={{ width:'440px' , height:'10px' , backgroundColor:'#FFFFFF'}}></hr>
 </b><br></br><br></br><br></br>
 
 <h1>From this we write success <br></br>stories.Every time...</h1>
@@ -318,7 +327,8 @@ And we also speak native in development.</h5>
 </div>
 <br></br><br></br><br></br>
 
-<div style={{width:'100%' , height:'auto' , border:'12px solid blue'}}>
+<div style={{width:'100%' , height:'auto' , borderBottom:'12px solid blue' , borderLeft:'12px solid blue'
+, borderRight:'12px solid blue'}}>
 <div className='row' style={{backgroundColor:'#00B4FF'}}>
 
 <div className='col-6 p-5'>
@@ -369,8 +379,10 @@ We do that!</h5>
 </div>
 </div>
 <br></br><br></br><center>
+<a href='' style={{textDecoration:'none'}}>
 <p style={{color:'#147AFE' , fontSize:'20px'}}><TrendingFlatIcon style={{fontSize:'40px' , color:'1F6AFF'}}></TrendingFlatIcon>
-&nbsp;&nbsp;Let's have a talk</p></center>
+&nbsp;&nbsp;Let's have a talk</p></a>
+</center>
 </div>
 <br></br><br></br><br></br><br></br>
 <br></br><br></br><br></br><br></br><br></br>
@@ -389,7 +401,8 @@ Sounds good. Is good.</h1>
 
 <div className='col-6'>
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-<img src={img6} style={{ width:'100%' , height:'auto'}}/>
+<img src={img6} style={{ width:'100%' , height:'auto' , borderBottom:'14px solid black'
+, borderRight:'14px solid black'}}/>
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 </div>
 </div>
@@ -436,19 +449,34 @@ Sounds logical, doesn't it?</h2><br></br><br></br>
 </div>
 
 <div className='row p-5' style={{color:'white' , backgroundColor:'black'}}>
-<div className='col'>
+<div className='col-7 '>
 <h1>Get in touch as soon as possible.<br></br>
-We can talk about our ASAP process in a flash.</h1>
+We can talk about ASAP process in flash.</h1>
+</div>
+
+<div className='col-4 offset-1 p-3'>
+
+
+<button type='button' className='btn-lg p-1' style={{backgroundColor:'#8DFFDF', borderRadius:'15px' ,
+        border:'3px solid #00D59A ' }}>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Get Started </b>&nbsp;&nbsp;&nbsp; &nbsp;
+           <span style={{color:'#4BB286'}}>It's Free.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+           <ArrowRightIcon style={{fontSize:'50px'}}></ArrowRightIcon></button>
+
 </div>
 </div>
+
+
+
+<div style={{backgroundColor:'#8EF6DB'}}>
 <div className='row '>
 
-<div className='col-6 p-5' style={{backgroundColor:'#81F4D0'}}>
+<div className='col-6 p-5' style={{backgroundColor:'#8EF6DB'}}>
 <h1 style={{fontSize:'55px'}}>
 Added Value Generation
 </h1>
 <br></br>
- <h5 style={{fontSize:'35px' , fontWeight: 'normal' }}>Give us call<br></br>
+ <h5 style={{fontSize:'35px'  , color:'#654321' }}>Give us call<br></br>
 Leverage your Potential<br></br>
 Don’t hesitate.<br></br>
 Do it now.</h5>
@@ -456,10 +484,13 @@ Do it now.</h5>
 </div>
 
 <div className='col-6'>
-<img src={img7} style={{ width:'800px' , height:'auto'}}/>
+
+<img src={img7} style={{ width:'800px' , height:'auto' }}/>
 </div>
 
 </div>
+</div>
+
 
 <br></br><br></br><br></br><br></br>
 <h1 style={{fontSize:'60px' , color:'#00AEA2'}} className='p-2'>Are you ready for the next big thing?</h1>
@@ -477,7 +508,7 @@ Do it now.</h5>
 
     &nbsp; and i'm looking for <span 
     style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}>  
-    &nbsp; &nbsp;&nbsp;&nbsp; Web development    </span>
+    &nbsp;  Web development  <DetailsIcon style={{fontSize:'37px' , color:'black'}}></DetailsIcon></span>
 
     &nbsp; <br></br><br></br>Additionally I want to say
     <span style={{color:'#BACAC5' ,  borderBottom:'5px solid black'}}>
