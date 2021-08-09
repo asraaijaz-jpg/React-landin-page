@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -20,7 +20,7 @@ import img4 from './pics4.png';
 import img5 from './pics5.png';
 import img6 from './pics6.png';
 import img7 from './pics7.png';
-
+import backgrounddots from './backgrounddots.PNG';
 
 
 
@@ -29,6 +29,10 @@ import img7 from './pics7.png';
 
 function Landingpage()
 {
+useEffect(()=>{{
+    document.title='bustani --all slides';
+}})
+
     return(<div className='container-fluid ' style={{backgroundColor:'#F5F5F5  '  }}>
         
         <div className='row p-5'>
@@ -278,30 +282,39 @@ borderRadius:'18px' , backgroundColor:'#8DFFDF'}} className='my-5'>Coders...</sp
 
     
 
-<div className='row' style={{backgroundColor:'#FCFCFC'}}>
+<div className='row' style={{backgroundColor:'#FCFCFC'  }}>
 
-<div className='col-4 offset-1'>
-<h1 style={{fontSize:'45px'}}>Conception</h1><br></br>
+
+<div className='col-4 offset-1 p-5'  style={{ backgroundImage:`url(${backgrounddots})` 
+,  height:'230px' , backgroundRepeat:'repeat-y'}}>
+<h1 style={{fontSize:'45px'}}><br></br>Conception</h1><br></br>
 <h5>Ideas, visions, problems or the<br></br> desire to do something new?<br></br>
 We listen and implement.</h5>
 </div>
 
-<div className='col-4'>
-<h1 style={{fontSize:'45px'}}>Development</h1><br></br>
-<h5>We develop intelligent platforms and<br></br> mobile applications for you!<br></br><br></br>
+<div className='col-4 p-5' >
+<h1 style={{fontSize:'45px'}}><br></br>Development</h1><br></br>
+
+<div style={{ backgroundImage:`url(${backgrounddots})`,
+backgroundRepeat:'repeat-y' , height:'230px'}}>
+<h5 >We develop intelligent platforms and<br></br> mobile applications for you!<br></br><br></br>
 We are bilingual.<br></br>
 Our native language is design.<br></br>
 And we also speak native in development.</h5>
 </div>
+</div>
 
-<div className='col-3'>
-<h1 style={{fontSize:'45px'}}>Evolution</h1><br></br>
+<div className='col-3 p-5'  style={{ backgroundImage:`url(${backgrounddots})` ,  height:'160px'}}>
+<h1 style={{fontSize:'45px' , backgroundRepeat:'repeat-y'}}><br></br>Evolution</h1><br></br>
 <h5>We develop a digital evolution <br></br>together</h5>
 
-<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <br></br><br></br><br></br><br></br><br></br><br></br>
 </div>
 
+</div>
+
+<div style={{backgroundColor:'#FFFFFF'}}>
+<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 </div>
 
 
@@ -504,25 +517,24 @@ Do it now.</h5>
 <h1 >
 
 Hey, my name is   &nbsp; &nbsp;<input type='text' style={{border:'none' , borderBottom:'5px solid black' , 
-width:"300px" , color:'#BACAC5' }} value="  &nbsp; &nbsp;Type Here"/>
+width:"300px" , color:'#C6C6C6' , backgroundColor:'#F5F5F5' , outline:'none'}} value="  &nbsp; &nbsp;Type Here"/>
 
 &nbsp; &nbsp;and i'm looking for &nbsp; &nbsp;<input type='text' style={{border:'none' , borderBottom:'5px solid black' , 
-width:"330px" , color:'#BACAC5' }} value=" Web Development"/> <DetailsIcon style={{fontSize:'37px' , color:'black'}}></DetailsIcon>
+width:"330px" , color:'#C6C6C6' , backgroundColor:'#F5F5F5' , outline:'none'}} value=" Web Development"/> <DetailsIcon style={{fontSize:'37px' , color:'black'}}></DetailsIcon>
 
 <br></br><br></br>
 
 Additionally I want to say &nbsp; &nbsp;<input type='text' style={{border:'none' , borderBottom:'5px solid black' , 
-width:"950px" , color:'#BACAC5' }} value=" You Message (optional) "/>
+width:"950px" , color:'#C6C6C6'  , backgroundColor:'#F5F5F5' , outline:'none'}} value=" You Message (optional) "/>
 
 <br></br><br></br>
-
 <input type='text' style={{border:'none' , borderBottom:'5px solid black' , 
-width:"1420px" , color:'#BACAC5' }} />
+width:"1420px" , color:'#C6C6C6' , backgroundColor:'#F5F5F5' , outline:'none' }} />
 
 <br></br><br></br>
 
 Contact with me at &nbsp; &nbsp;<input type='text' style={{border:'none' , borderBottom:'5px solid black' , 
-width:"600px" , color:'#BACAC5' }} value="  &nbsp; &nbsp; &nbsp; &nbsp;Your Email Address."/>
+width:"600px" , color:'#C6C6C6'  , backgroundColor:'#F5F5F5' , outline:'none'}}  value="  &nbsp; &nbsp; &nbsp; &nbsp;Your Email Address."/>
 </h1>
 <span></span>
 
