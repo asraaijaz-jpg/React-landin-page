@@ -21,9 +21,6 @@ import img5 from './pics5.png';
 import img6 from './pics6.png';
 import img7 from './pics7.png';
 import a1 from './aa.PNG';
-import i1 from './1.PNG';
-import i2 from './2.PNG';
-import backklines from './back-lines.jpeg';
 import backgrounddots from './backgrounddots.PNG';
 
 
