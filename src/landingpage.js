@@ -20,8 +20,11 @@ import img4 from './pics4.png';
 import img5 from './pics5.png';
 import img6 from './pics6.png';
 import img7 from './pics7.png';
+import a1 from './aa.PNG';
+import i1 from './1.PNG';
+import i2 from './2.PNG';
+import backklines from './back-lines.jpeg';
 import backgrounddots from './backgrounddots.PNG';
-
 
 
 
@@ -36,6 +39,8 @@ useEffect(()=>{{
     return(<div className='container-fluid ' style={{backgroundColor:'#F5F5F5  '  }}>
         
         <div className='row p-5'>
+
+      
 
             <div className='col-5'>
                  <h1>Bustani <span><img src={logo1}/></span></h1>
@@ -68,28 +73,40 @@ useEffect(()=>{{
             </div>
         </div>
 
+        
+
 <br></br><br></br><br></br><br></br>
         <div className='row p-5'>
+
+  
 
 <div className='col-6'>
 <b><u style={{color:'#20FFC1'}}><h1 style={{fontSize:'70px' , color:'black'}}>We do it.</h1></u></b><br></br>
 <h3>Fastest MVP in Town.</h3><br></br>
 <h3>Everyone is talking about digital business models, 
-automated processes, and artificial intelligence.</h3><br></br>
+automated processes, and artificial intelligence.</h3>
+
+<div style={{backgroundImage:`url(${a1})` , backgroundColor:'#F5F5F5  '  , backgroundRepeat:'no-repeat'}}>
+
+<br></br>
+
+
+
 <p style={{fontSize:'25px'}}>We develop your individual software and we make sure that you are the first on the market.</p>
 
 <br></br><br></br>
+
 
 <button type='button' className='btn-lg p-1' style={{backgroundColor:'#8DFFDF', borderRadius:'15px' ,
         border:'3px solid #00D59A ' }}>
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Get Started </b>&nbsp;&nbsp;&nbsp; &nbsp;
            <span style={{color:'#4BB286'}}>It's Free.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
            <ArrowRightIcon style={{fontSize:'50px'}}></ArrowRightIcon></button>
-
 <br></br><br></br><br></br>
 <h4 style={{color:'#9EA2A1 '}}>We think radically to create relevance.</h4>
 <br></br><br></br>
 <h3>Trusted By</h3>
+</div>
 </div>
 
 
